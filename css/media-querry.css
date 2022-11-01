@@ -59,7 +59,7 @@
     
     .head-content{
         font-family: 'abel-regular';
-        font-size:35px;
+        font-size:30px;
     }
     .head-parag{
         font-size: 16px;
@@ -78,7 +78,8 @@
         
     }
     .title2{
-        font-size: 30px;}
+        font-size: 20px;
+    margin-top: 10px;}
     
     .article{
         width: 90%;
@@ -180,6 +181,9 @@
     }
 }
 @media only screen and (max-width:900px){
+    header{
+        padding: 10px 8px;
+    }
     .hamburger{
         display: block;
         font-size: 2rem;
