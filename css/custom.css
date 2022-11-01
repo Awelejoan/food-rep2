@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('../font/abel-regular-webfont.woff2') format('woff2'),
+         url('../font/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('../font/pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('../font/pinyonscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'abel-regular';
+    background-color: gray;
+}
+h1 {
+    font-family: 'pinyon_scriptregular';
+}
+h2{
+    font-family: 'abelregular';
+}
+main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    
+}
+[class*="col-"]{ 
+	padding: 10px;
+}
+span{
+    color:orange;
+    margin-left: 10px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+ul{list-style-type: none;}
+
+
+header    {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 100px;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px ;
+
+}
+.nav-bar ul li a:hover{
+    color:white;
+    background-color: yellow;    
+}
+.hamburger{
+    display: none;
+}
+ 
+.amount{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.base{
+    text-align: center;
+    font-size: 12px;
+}
+.head-content{
+    color: white;
+    font-family: 'abel-regular';
+    font-size: 50px;
+}
+.head-parag{
+    color: white;
+    font-family: 'abel-regular';
+    font-size: 16px;
+    line-height: 25px;
+}
+.title{
+    background-image: url('../images/heading-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+
+}
+.title2{
+    margin-top: -10px;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+.menu{
+    margin-left: 15px;
+}
+.article img{
+    margin-left: 20px;
+}
+#footer-content{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.date{
+    font-size: 11px;
+}
+footer{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.foot-content{
+    font-size: 12px;
+    
+    
+}
