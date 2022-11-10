@@ -17,22 +17,9 @@
 }
 *{
 	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 } 
-.food-container{
-	width: 90%;
-	margin-left: 13%;
-}
-
-.row{
-	display: flex;
-	flex-wrap: wrap;
-   
-}
-.article{
-    box-shadow: 0px 0px 3px grey;
-    padding: 10PX;
-    margin: 10px;
-}
 
 
 
@@ -73,8 +60,9 @@
     .title{
         background-image: url('../images/heading-bg.png');
         background-repeat: no-repeat;
-        width: 80%;
-        margin: 0 50px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
         
     }
     .title2{
@@ -82,9 +70,7 @@
     margin-top: 10px;}
     
     .article{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+
         box-shadow: 0 0 20px grey;
     }
     
@@ -120,12 +106,13 @@
     .title{
         background-image: url('../images/heading-bg.png');
         background-repeat: no-repeat;
-        width: 90%;
-        margin: 0 50px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
         
     }
     .title2{
-        font-size: 40px;}
+        font-size: 30px;}
     
 }
 .fa-navicon{
@@ -133,7 +120,7 @@
 }
 
 
-@media only screen and (min-width: 1002px){
+@media only screen and (min-width: 968px){
 	.col-md-1 {width: 8.33%;} 
 	.col-md-2 {width: 16.66%;} 
 	.col-md-3 {width: 25%;} 
@@ -150,25 +137,29 @@
         background: url('../images/banner.png');
         background-size: cover;
         width: 100%;
-        padding: 90px;
+        padding: 150px;
         background-repeat: no-repeat;
     }
+
+   
     .title{
         background-image: url('../images/heading-bg.png');
         background-repeat: no-repeat;
-        width: 100%;
+        width: 50%;
         padding: 30px;
-        margin-left: 25%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
     
     }
     .title2{
         margin-top: -10px;
         font-size: 50px;
-        margin-left: 60px;
+        
         
      
     }
+    
 }
 @media only screen and (max-width:1320){
     header{
@@ -182,12 +173,11 @@
 }
 @media only screen and (max-width:900px){
     header{
-        padding: 10px 8px;
+        padding: 10px 30px;
     }
     .hamburger{
         display: block;
         font-size: 2rem;
-        
     }
 
      .nav-bar.active{
@@ -195,7 +185,7 @@
      }
     .nav-bar{
 
-         position: absolute;
+        position: absolute;
         height: 0;
         overflow: hidden; 
         top: 80px;
@@ -215,9 +205,10 @@
     }
     .nav-bar ul{
         display: block;
-        width: fit-content; 
-        
-       
-        
+        width: fit-content;     
+    } 
+    .nav-bar ul{
+        display: block;
+        width:fit-content
     }
 }
